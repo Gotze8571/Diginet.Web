@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Calibri Regular';
+  src: url('/path-to/Calibri Regular.woff2') format('woff2'),
+       url('/path-to/Calibri Regular.woff') format('woff'),
+       url('/path-to/Calibri Regular.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'Calibri Regular', sans-serif;
+  color: #595959;
+}
+
+h1 {
+  color: #AB7E55;
+  border-bottom: 2px solid #AB7E55;
+  display: inline-block;
+  padding: 2px 24px 10px;
+  font-size: 30px;
+}
+
+section {
+  padding: 20px 0;
+}
+.down i {
+  color: #c89969;
+  font-size: 100px;
+}
+
+header.mainheader {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.welcomenote {
+  font-size: 22px;
+}
+.welcomenote small {
+  font-size: 16px;
+  display: block;
+  margin-top: -7px;
+}
+
+.savingwallet .card {
+  background-color: #c89969;
+    color: #fff;
+    border-radius: 0%;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 89px auto 0;
+
+}
+.savingwallet .card .card-img-top {
+  width: auto;
+  margin-top: -84px;
+}
+.savingwallet .card .card-body {
+  padding-top: 0px;
+}
+
+.inputblock {}
+.inputblock .form-control[readonly] {
+  border: 2px solid #AB7E55;
+    background-color: #fff;
+    color: #595959;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.5;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+.tradeblock {
+  background-color: #c89969;
+  color: #FFF;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+.tradeblock small {
+  display: block;
+}
+.tradeblock a.btn-primary {
+  background-color: #AB7E55;
+  border: none;
+  padding: 8px 30px;
+  margin-right: 10px;
+}
+
+.activityblock {
+  background-color: #fff2cc;
+  min-height: 400px;
+  padding: 15px;
+}
+
+.activityblock table {
+  width: 100%;
+}
+.activityblock table th {
+  font-weight: normal;
+    padding-bottom: 14px;
+}
+.activityblock table tbody tr {
+  background-color: #FFF;
+  border: 1px solid #AB7E55;
+  margin-bottom: 4px;
+}
+.activityblock table td {
+  padding: 10px;
+}
+

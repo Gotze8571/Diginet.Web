@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISWireframe", "MISWirefram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackofficeWireframe", "BackofficeWireframe\BackofficeWireframe.csproj", "{642B5BC6-9185-4F57-AD7F-CEBD2C1408DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackofficeWireframV2", "BackofficeWireframV2\BackofficeWireframV2.csproj", "{615502DA-E3EA-4377-AFA8-DA089FB922F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{642B5BC6-9185-4F57-AD7F-CEBD2C1408DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{642B5BC6-9185-4F57-AD7F-CEBD2C1408DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{642B5BC6-9185-4F57-AD7F-CEBD2C1408DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615502DA-E3EA-4377-AFA8-DA089FB922F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615502DA-E3EA-4377-AFA8-DA089FB922F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615502DA-E3EA-4377-AFA8-DA089FB922F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615502DA-E3EA-4377-AFA8-DA089FB922F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
