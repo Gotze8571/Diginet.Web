@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\DELL\Documents\Published Files\Diginet.UI</_PublishTargetUrl>
+    <History>True|2021-07-20T20:21:23.8356182Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/BackofficeWireframV2.dll">
+      <publishTime>07/20/2021 15:21:21</publishTime>
+    </File>
+    <File Include="bin/BackofficeWireframV2.pdb">
+      <publishTime>07/20/2021 15:21:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>07/05/2021 20:56:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/05/2021 20:56:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>07/05/2021 20:56:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>07/05/2021 20:56:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>07/05/2021 20:56:21</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>07/05/2021 20:56:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/05/2021 20:56:20</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/05/2021 20:56:23</publishTime>
+    </File>
+    <File Include="Content/css/all.min.css">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/css/styles.css">
+      <publishTime>07/07/2021 21:23:51</publishTime>
+    </File>
+    <File Include="Content/fonts/Calibri Regular.ttf">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/Calibri Regular.woff">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/Calibri Regular.woff2">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-brands-400.eot">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-brands-400.svg">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-brands-400.ttf">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-brands-400.woff">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-brands-400.woff2">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-regular-400.eot">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-regular-400.svg">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-regular-400.ttf">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-regular-400.woff">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-regular-400.woff2">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-solid-900.eot">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-solid-900.svg">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-solid-900.ttf">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-solid-900.woff">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/fonts/fa-solid-900.woff2">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="Content/images/diginet-logo.jpg">
+      <publishTime>07/07/2021 20:46:18</publishTime>
+    </File>
+    <File Include="Content/images/gold.png">
+      <publishTime>07/07/2021 20:46:18</publishTime>
+    </File>
+    <File Include="Content/images/silver.png">
+      <publishTime>07/07/2021 20:46:18</publishTime>
+    </File>
+    <File Include="Content/images/tokens.png">
+      <publishTime>07/07/2021 20:46:20</publishTime>
+    </File>
+    <File Include="diginet-html/account.html">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/css/all.min.css">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/css/styles.css">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/Calibri Regular.ttf">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/Calibri Regular.woff">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/Calibri Regular.woff2">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-brands-400.eot">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-brands-400.svg">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-brands-400.ttf">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-brands-400.woff">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-brands-400.woff2">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-regular-400.eot">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-regular-400.svg">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-regular-400.ttf">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-regular-400.woff">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-regular-400.woff2">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-solid-900.eot">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-solid-900.svg">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-solid-900.ttf">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-solid-900.woff">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/fonts/fa-solid-900.woff2">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/images/diginet-logo.jpg">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/images/gold.png">
+      <publishTime>07/19/2021 04:08:14</publishTime>
+    </File>
+    <File Include="diginet-html/assets/images/silver.png">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="diginet-html/assets/images/tokens.png">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="diginet-html/assets/js/scripts.js">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="diginet-html/forgotpassword.html">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="diginet-html/index.html">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="diginet-html/login.html">
+      <publishTime>07/20/2021 11:30:31</publishTime>
+    </File>
+    <File Include="diginet-html/trade.html">
+      <publishTime>07/19/2021 04:08:15</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/07/2021 20:44:16</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/07/2021 20:44:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>07/07/2021 20:44:17</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/07/2021 20:44:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/07/2021 20:44:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/07/2021 20:44:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/07/2021 20:44:29</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>07/07/2021 20:44:27</publishTime>
+    </File>
+    <File Include="Scripts/scripts.js">
+      <publishTime>07/07/2021 20:45:41</publishTime>
+    </File>
+    <File Include="Views/Diginet/Dashboard.cshtml">
+      <publishTime>07/07/2021 21:25:44</publishTime>
+    </File>
+    <File Include="Views/Diginet/DigiTokenLedger.cshtml">
+      <publishTime>07/07/2021 21:18:52</publishTime>
+    </File>
+    <File Include="Views/Diginet/GoldLedger.cshtml">
+      <publishTime>07/07/2021 21:11:24</publishTime>
+    </File>
+    <File Include="Views/Diginet/SilverLedger.cshtml">
+      <publishTime>07/07/2021 21:18:02</publishTime>
+    </File>
+    <File Include="Views/Diginet/TradeAction.cshtml">
+      <publishTime>07/07/2021 21:08:25</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>07/19/2021 10:38:35</publishTime>
+    </File>
+    <File Include="Views/Login/Index.cshtml">
+      <publishTime>07/20/2021 14:20:58</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/07/2021 21:25:32</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/07/2021 20:43:58</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/20/2021 15:21:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

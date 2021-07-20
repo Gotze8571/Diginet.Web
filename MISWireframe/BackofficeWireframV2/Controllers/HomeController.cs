@@ -26,5 +26,10 @@ namespace BackofficeWireframV2.Controllers
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
