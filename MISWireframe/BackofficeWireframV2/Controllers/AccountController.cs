@@ -13,5 +13,19 @@ namespace BackofficeWireframV2.Controllers
         {
             return View();
         }
+
+        public ActionResult Gold()
+        {
+            return View();
+        }
+        
+        public ActionResult Silver()
+        {
+            return View();
+        }
+        public ActionResult DigiToken()
+        {
+            return View();
+        }
     }
 }
