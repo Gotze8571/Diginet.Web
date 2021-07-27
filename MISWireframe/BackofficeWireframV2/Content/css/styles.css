@@ -1,8 +1,5 @@
 @font-face {
   font-family: 'Calibri Regular';
-  src: url('/path-to/Calibri Regular.woff2') format('woff2'),
-       url('/path-to/Calibri Regular.woff') format('woff'),
-       url('/path-to/Calibri Regular.ttf')  format('truetype');
 }
 
 body {
@@ -22,8 +19,9 @@ section {
   padding: 20px 0;
 }
 .down i {
-  color: #c89969;
-  font-size: 100px;
+    
+    color: #c89969;
+    font-size: 100px;
 }
 
 header.mainheader {

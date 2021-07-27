@@ -124,6 +124,7 @@ C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\rosl
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\roslyn\VBCSCompiler.exe
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\Antlr3.Runtime.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\DiginetSite.Domain.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\Newtonsoft.Json.dll
@@ -135,6 +136,7 @@ C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\Syst
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\System.Web.WebPages.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\System.Web.WebPages.Razor.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\WebGrease.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\DiginetSite.Domain.pdb
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\System.Web.Helpers.xml
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\System.Web.Mvc.xml
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\System.Web.Optimization.xml
@@ -150,3 +152,11 @@ C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\obj\Debu
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\obj\Debug\BackofficeWireframV2.csproj.CopyComplete
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\obj\Debug\BackofficeWireframV2.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\obj\Debug\BackofficeWireframV2.pdb
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\NLog.config
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\NLog.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\DiginetSite.Domain.dll.config
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\NLog.xml
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.xml
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.SqlServer.xml

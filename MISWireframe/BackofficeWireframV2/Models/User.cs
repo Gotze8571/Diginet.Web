@@ -10,7 +10,11 @@ namespace BackofficeWireframV2.Models
     {
         [Key]
         public int ID { get; set; }
+        [Required]
+        [Display(Name = "Username")]
         public string UserId { get; set; }
+        [Required]
+        [Display(Name = "Password")]
         public string Password { get; set; }
     }
 }

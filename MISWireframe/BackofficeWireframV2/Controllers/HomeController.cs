@@ -31,5 +31,10 @@ namespace BackofficeWireframV2.Controllers
         {
             return View();
         }
+        public ActionResult Trade()
+        {
+            return View();
+        }
+        
     }
 }

@@ -1,0 +1,172 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="main-body">
+
+    <!-- main-header -->
+    <header class="header-main">
+        <div class="main-header">
+            <div class="container d-flex">
+                <!--logo-->
+                <div class="main-header-left">
+                    <a class="main-logo " href="index.html"><img src="assets/images/diginet-logo.jpg" alt="DIGINET"></a>
+                </div>
+                <div class="main-header-right ml-auto">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="welcomenote text-center">
+                                    <i class="fas fa-user-circle"></i>
+                                    <br>
+                                    Andrew, Welcome back!
+                                    <small>DigiNet ID Number: 1001</small>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item">
+                                    <i class="fas fa-box"></i> Total Assets <span class="badge badge-secondary">£1,500.00</span>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mainmenu">
+            <div class="container">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trade.html">Trade Action</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="account.html">Gold Account</a>
+                            <a class="dropdown-item" href="account.html">Silver Account</a>
+                            <a class="dropdown-item" href="account.html">Digi Token Account</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!--/main-header-->
+
+    <main>
+
+        <section class="activity">
+            <div class="container text-center mb-5">
+                <h1>DIGINET ACCOUNT ACTIVITY</h1>
+            </div>
+            <div class="container">
+                <div class="activityblock">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>DATE</th>
+                                <th>ACTIVITY</th>
+                                <th>ASSET</th>
+                                <th>AMOUNT</th>
+                                <th>VALUE</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5<sup>TH</sup> May 2021</td>
+                                <td>Purchase</td>
+                                <td>Vaulted Gold</td>
+                                <td>20grams </td>
+                                <td>£950.00 </td>
+                                <td>Settled</td>
+                            </tr>
+
+                            <tr>
+                                <td>5<sup>TH</sup> May 2021</td>
+                                <td>Purchase</td>
+                                <td>Vaulted Silver</td>
+                                <td>100grams </td>
+                                <td>£489.50</td>
+                                <td>Settled</td>
+                            </tr>
+
+                            <tr>
+                                <td>6<sup>TH</sup> May 2021</td>
+                                <td>Deposit GMB</td>
+                                <td>Vaulted Gold</td>
+                                <td>1grams </td>
+                                <td>£5.00</td>
+                                <td>Settled</td>
+                            </tr>
+
+                            <tr>
+                                <td>8<sup>TH</sup> May 2021</td>
+                                <td>Token Creation</td>
+                                <td>DigiGold Token </td>
+                                <td>10grams </td>
+                                <td>£475.00</td>
+                                <td>Issued</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mainfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="footerlogo" src="assets/images/diginet-logo.jpg">
+                </div>
+                <div class="col-md-4">
+                    <h5>Account</h5>
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="trade.html">Trade Action</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Sociall Media</h5>
+                    <ul>
+                        <li><a href="javascript:;"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                        <li><a href="javascript:;"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                        <li><a href="javascript:;"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <span>© 2021 - Copyright Diginet</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
