@@ -160,3 +160,7 @@ C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\NLog
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.xml
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.SqlServer.dll
 C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\PagedList.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\PagedList.Mvc.dll
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\PagedList.xml
+C:\Users\DELL\source\repos\DIGINET.UI\MISWireframe\BackofficeWireframV2\bin\PagedList.Mvc.xml
