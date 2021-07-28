@@ -1,0 +1,59 @@
+﻿@model DiginetSite.Domain.Entity.Customer
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+    <section class="savingwallet">
+        <div class="container text-center">
+            <h1>SAVINGS & ASSET WALLETS</h1>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Content/images/gold.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VAULTED GOLD</h5>
+                            <p class="card-text">Finest 999.9 24ct Gold Bullion Vaulted & Insured</p>
+                            <div class="inputblock">
+                                <input class="form-control" type="text" value="£500.00" readonly>
+                                <input class="form-control" type="text" value="10 grams" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Content/images/tokens.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DIGIGOLD TOKENS</h5>
+                            <p class="card-text">100% Backed by 1/10gram Finest 999.9 24ct Gold Bullion</p>
+                            <div class="inputblock">
+                                <input class="form-control" type="text" value="£500.00" readonly>
+                                <input class="form-control" type="text" value="100 tokens" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="~/Content/images/silver.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VAULTED SILVER</h5>
+                            <p class="card-text">Finest 999.0 Pure Silver Bullion Vaulted & Insured</p>
+                            <div class="inputblock">
+                                <input class="form-control" type="text" value="£500.00" readonly>
+                                <input class="form-control" type="text" value="500 grams" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+

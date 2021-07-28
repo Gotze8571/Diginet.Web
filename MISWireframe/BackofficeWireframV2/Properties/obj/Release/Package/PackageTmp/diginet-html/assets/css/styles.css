@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Calibri Regular';
+  src: url('/path-to/Calibri Regular.woff2') format('woff2'),
+       url('/path-to/Calibri Regular.woff') format('woff'),
+       url('/path-to/Calibri Regular.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'Calibri Regular', sans-serif;
+  color: #595959;
+}
+
+h1 {
+  color: #AB7E55;
+  border-bottom: 2px solid #AB7E55;
+  display: inline-block;
+  padding: 2px 24px 10px;
+  font-size: 30px;
+}
+main {
+  min-height: 63vh;
+}
+
+.btn-primary {
+  background-color: #AB7E55;
+  border: none;
+  padding: 8px 30px;
+}
+.btn-primary:hover {
+  background-color: #c89969;
+  border: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #c89969;
+}
+a {
+  color: #AB7E55;
+}
+
+.badge-primary {
+  background-color: #AB7E55;
+}
+
+section {
+  padding: 20px 0;
+}
+.down i {
+  color: #c89969;
+  font-size: 100px;
+}
+
+
+/* main Header */
+.main-header {
+  z-index: 1;
+  position: relative !important;
+  box-shadow: 0 0 0 1px rgb(119 161 204 / 12%), 0 8px 16px 0 rgb(122 161 210 / 24%);
+  border: 0;
+  background: black;
+  width: 100%;
+}
+.main-header-left {
+	display: flex;
+	align-items: center;
+  padding: 12px;
+  padding-left: 0;
+  padding-right: 24px;
+}
+.main-logo img {
+  max-width: 100px;
+}
+.main-header-right {
+  display: flex;
+  align-items: center;
+}
+.main-header-right .nav-link {
+  padding: 0px;
+  font-size: 26px;
+  color: #FFF;
+}
+.main-header-right .dropdown-toggle::after {
+  font-size: 16px;
+}
+
+
+.welcomenote {
+  font-size: 22px;
+    padding: 2px 15px;
+}
+.welcomenote i {
+  font-size: 50px;
+}
+.welcomenote small {
+  font-size: 14px;
+    display: block;
+    margin-top: -3px;
+    border: 1px solid #c89969;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+.mainmenu {
+  background: #c89969;
+}
+.mainmenu .nav-pills .nav-link.active,
+.mainmenu .nav-pills .show>.nav-link {
+  background: #000;
+  border-radius: 0px;
+}
+.mainmenu .nav-pills .nav-link {
+  color: #FFF;
+}
+
+
+.savingwallet .card {
+  background-color: #c89969;
+    color: #fff;
+    border-radius: 0%;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 89px auto 0;
+
+}
+.savingwallet .card .card-img-top {
+  width: auto;
+  margin-top: -84px;
+}
+.savingwallet .card .card-body {
+  padding-top: 0px;
+}
+
+.inputblock {}
+.inputblock .form-control[readonly] {
+  border: 2px solid #AB7E55;
+    background-color: #fff;
+    color: #595959;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.5;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+.tradeblock {
+  background-color: #c89969;
+  color: #FFF;
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+.tradeblock small {
+  display: block;
+}
+.tradeblock a.btn-primary {
+  background-color: #AB7E55;
+  border: none;
+  padding: 8px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.activityblock {
+  background-color: #fff2cc;
+  min-height: 400px;
+  padding: 15px;
+}
+
+.activityblock table {
+  width: 100%;
+}
+.activityblock table th {
+  font-weight: normal;
+    padding-bottom: 14px;
+}
+.activityblock table tbody tr {
+  background-color: #FFF;
+  border: 1px solid #AB7E55;
+  margin-bottom: 4px;
+}
+.activityblock table td {
+  padding: 10px;
+}
+
+
+.mainfooter {
+  background-color: black;
+    padding: 23px 0px;
+    color: #ab7e55;
+}
+.mainfooter ul {
+  list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.mainfooter ul li {
+  padding: 3px;
+}
+.mainfooter ul li a {
+  color: #fff2cc;
+}
+.mainfooter ul li a:hover{
+  color: #ab7e55;
+    text-decoration: none;
+}
+

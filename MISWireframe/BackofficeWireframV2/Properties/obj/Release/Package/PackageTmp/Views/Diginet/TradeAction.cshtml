@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "TradeAction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="trade-actions">
+    <div class="container text-center">
+        <h1>DIGINET TRADE & ACTIONS</h1>
+    </div>
+    <div class="container mt-5">
+        <div class="tradeblock">
+            <div class="row">
+                <div class="col-2">
+                    <small>ASSET</small>
+                    <h5>VAULTED GOLD</h5>
+                </div>
+                <div class="col-4 inputblock">
+                    <div class="row">
+                        <div class="col">
+                            <small>QUANTITY</small>
+                            <input class="form-control" type="text" value="10 grams" readonly>
+                        </div>
+                        <div class="col">
+                            <small>VALUATION</small>
+                            <input class="form-control" type="text" value="£500.00" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <small>ACTION</small>
+                    <a href="javascript:;" class="btn btn-primary">SELL BACK</a>
+                    <a href="javascript:;" class="btn btn-primary">TRANSFER</a>
+                    <a href="javascript:;" class="btn btn-primary">CREATE TOKEN</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tradeblock">
+            <div class="row">
+                <div class="col-2">
+                    <small>ASSET</small>
+                    <h5>VAULTED SILVER</h5>
+                </div>
+                <div class="col-4 inputblock">
+                    <div class="row">
+                        <div class="col">
+                            <small>QUANTITY</small>
+                            <input class="form-control" type="text" value="500 grams" readonly>
+                        </div>
+                        <div class="col">
+                            <small>VALUATION</small>
+                            <input class="form-control" type="text" value="£500.00" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <small>ACTION</small>
+                    <a href="javascript:;" class="btn btn-primary">SELL BACK</a>
+                    <a href="javascript:;" class="btn btn-primary">TRANSFER</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tradeblock">
+            <div class="row">
+                <div class="col-2">
+                    <small>ASSET</small>
+                    <h5>DIGIGOLD TOKENS</h5>
+                </div>
+                <div class="col-4 inputblock">
+                    <div class="row">
+                        <div class="col">
+                            <small>QUANTITY</small>
+                            <input class="form-control" type="text" value="100 tokens " readonly>
+                        </div>
+                        <div class="col">
+                            <small>VALUATION</small>
+                            <input class="form-control" type="text" value="£500.00" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <small>ACTION</small>
+                    <a href="javascript:;" class="btn btn-primary">VIEW TOKENS</a>
+                    <a href="javascript:;" class="btn btn-primary">TRANSFER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="charts">
+    <div class="container text-center mb-5">
+        <h1>LIVE PRICE CHARTS</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <small>GOLD</small>
+                <div id="chartContainer1" style="height: 300px;"></div>
+            </div>
+            <div class="col-4">
+                <small>SILVER</small>
+                <div id="chartContainer1" style="height: 300px;"></div>
+            </div>
+            <div class="col-4">
+                <small>DIGIGOLD TOKEN</small>
+                <div id="chartContainer1" style="height: 300px;"></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+

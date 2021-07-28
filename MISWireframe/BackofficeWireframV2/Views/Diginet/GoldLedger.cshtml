@@ -1,60 +1,63 @@
-﻿
+﻿@using PagedList
+@using PagedList.Mvc
+
+@model IPagedList<DiginetSite.Domain.Models.ViewModel.GoldLedgerViewModel>
 @{
     ViewBag.Title = "GoldLedger";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-    <section class="activity">
-        <div class="container text-center mb-5">
-            <h1>DIGINET GOLD ACCOUNT ACTIVITY</h1>
+<section class="activity">
+    <div class="container text-center mb-5">
+        <h1>DIGINET GOLD ACCOUNT ACTIVITY</h1>
+    </div>
+    <div class="container">
+        <div class="activityblock">
+            <table>
+                <thead>
+                    <tr>
+                        <th>DATE</th>
+                        <th>ACTIVITY</th>
+                        <th>AMOUNT</th>
+                        <th>VALUE</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5<sup>TH</sup> May 2021</td>
+                        <td>Purchase</td>
+                        <td>20grams </td>
+                        <td>£950.00 </td>
+                        <td>Settled</td>
+                    </tr>
+
+                    <tr>
+                        <td>5<sup>TH</sup> May 2021</td>
+                        <td>Purchase</td>
+                        <td>100grams </td>
+                        <td>£489.50</td>
+                        <td>Settled</td>
+                    </tr>
+
+                    <tr>
+                        <td>6<sup>TH</sup> May 2021</td>
+                        <td>Deposit GMB</td>
+                        <td>1grams </td>
+                        <td>£5.00</td>
+                        <td>Settled</td>
+                    </tr>
+
+                    <tr>
+                        <td>8<sup>TH</sup> May 2021</td>
+                        <td>Token Creation</td>
+                        <td>10grams </td>
+                        <td>£475.00</td>
+                        <td>Issued</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="container">
-            <div class="activityblock">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>DATE</th>
-                            <th>ACTIVITY</th>
-                            <th>AMOUNT</th>
-                            <th>VALUE</th>
-                            <th>STATUS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>5<sup>TH</sup> May 2021</td>
-                            <td>Purchase</td>
-                            <td>20grams </td>
-                            <td>£950.00 </td>
-                            <td>Settled</td>
-                        </tr>
-
-                        <tr>
-                            <td>5<sup>TH</sup> May 2021</td>
-                            <td>Purchase</td>
-                            <td>100grams </td>
-                            <td>£489.50</td>
-                            <td>Settled</td>
-                        </tr>
-
-                        <tr>
-                            <td>6<sup>TH</sup> May 2021</td>
-                            <td>Deposit GMB</td>
-                            <td>1grams </td>
-                            <td>£5.00</td>
-                            <td>Settled</td>
-                        </tr>
-
-                        <tr>
-                            <td>8<sup>TH</sup> May 2021</td>
-                            <td>Token Creation</td>
-                            <td>10grams </td>
-                            <td>£475.00</td>
-                            <td>Issued</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
 

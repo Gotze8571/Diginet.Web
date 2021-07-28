@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitnet - Backoffice</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Content/css/all.min.css">
+    <link rel="stylesheet" href="/Content/css/styles.css">
+
+    <script type="text/javascript" src="https://www.bullionvault.com/chart/bullionvaultchart.js?v=1"></script>
+</head>
+<body>
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>*@
+    <header class="mainheader">
+        <div class="container-fluid text-center">
+            <a href="#" class="logo"><img src="/Content/images/diginet-logo.jpg"> </a>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <div class="welcomenote">
+                    Andrew, Welcome back!
+                    <small>DigiNet ID Number: 1001</small>
+                </div>
+                <div class="welcomenote">
+                    Total Assets £1,500.00
+                </div>
+            </div>
+        </section>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Copyright Diginet</p>
+            </footer>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="~/Scripts/scripts.js"></script>
+    <script type="text/javascript">
+        var options1 = { bullion: 'gold', containerDefinedSize: true };
+        var chartBV1 = new BullionVaultChart(options1, 'chartContainer1');
+        var options2 = { bullion: 'silver', containerDefinedSize: true };
+        var chartBV2 = new BullionVaultChart(options2, 'chartContainer2');
+        var options3 = { bullion: 'platinum', containerDefinedSize: true };
+        var chartBV3 = new BullionVaultChart(options3, 'chartContainer3');
+    </script>
+</body>
+</html>
